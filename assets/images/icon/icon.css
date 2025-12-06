@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+.icon-stars {
+  mask-image: url(stars.svg);
+  -webkit-mask-image: url(stars.svg);
+}
+.icon-arrow {
+  mask-image: url(arrow.svg);
+  -webkit-mask-image: url(arrow.svg);
+}
+.icon-arrowDown {
+  mask-image: url(arrowDown.svg);
+  -webkit-mask-image: url(arrowDown.svg);
+}
+.icon-possibilities--one{
+    mask-image: url(icon1.svg);
+  -webkit-mask-image: url(icon1.svg);
+}
+.icon-possibilities--two{
+      mask-image: url(icon2.svg);
+  -webkit-mask-image: url(icon2.svg);
+}
+.icon-possibilities--tree{
+      mask-image: url(icon3.svg);
+  -webkit-mask-image: url(icon3.svg);
+}
+.icon-possibilities--for{
+      mask-image: url(icon4.svg);
+  -webkit-mask-image: url(icon4.svg);
+}
+.icon-possibilities--five{
+      mask-image: url(icon5.svg);
+  -webkit-mask-image: url(icon5.svg);
+}
+.icon-possibilities--six{
+      mask-image: url(icon6.svg);
+  -webkit-mask-image: url(icon6.svg);
+}
+.icon-possibilities--seven{
+      mask-image: url(icon7.svg);
+  -webkit-mask-image: url(icon7.svg);
+}
+.icon-possibilities--eight{
+      mask-image: url(icon8.svg);
+  -webkit-mask-image: url(icon8.svg);
+}
+.icon-possibilities--nine{
+      mask-image: url(icon9.svg);
+  -webkit-mask-image: url(icon9.svg);
+}
+.icon-arrowRight{
+        mask-image: url(arrowRight.svg);
+  -webkit-mask-image: url(arrowRight.svg);
+}
