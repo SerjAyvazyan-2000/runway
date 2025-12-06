@@ -266,6 +266,8 @@ main {
   padding: 6px 20px 6px 6px;
   background: #ffffff;
   border-radius: 6px;
+
+  transition: .3s;
 }
 .btn-white-icon {
   flex: 0 0 40px;
@@ -273,17 +275,40 @@ main {
   background: #202020;
   width: 40px;
   height: 40px;
+    transition: .3s;
+
 }
 .btn-white-icon i {
   font-size: 24px;
   background: #ffffff;
+    transition: .3s;
+
 }
 .btn-white span {
   font-weight: 600;
   font-size: 16px;
   line-height: 130%;
   color: #202020;
+    transition: .3s;
+
 }
+
+.btn-white:hover {
+ background: #202020;
+
+}
+.btn-white:hover span {
+    color: #ffffff;
+
+}
+.btn-white:hover .btn-white-icon {
+    background: #ffffff;
+
+}
+.btn-white:hover .btn-white-icon i {
+  background: #202020;
+}
+
 
 .btn-black {
   display: flex;
@@ -291,7 +316,7 @@ main {
   align-items: center;
   padding: 6px 20px 6px 6px;
   background: #202020;
-
+  transition: 0.3s;
   border-radius: 6px;
 }
 .btn-black-icon {
@@ -300,18 +325,32 @@ main {
   background: #ffffff;
   width: 40px;
   height: 40px;
+  transition: 0.3s;
 }
 .btn-black-icon i {
   font-size: 24px;
   background: #202020;
+  transition: 0.3s;
 }
 .btn-black span {
   font-weight: 600;
   font-size: 16px;
   line-height: 130%;
   color: #ffffff;
+  transition: 0.3s;
 }
-
+.btn-black:hover {
+  background: #e5e3ec33;
+}
+.btn-black:hover span {
+  color: #202020;
+}
+.btn-black:hover .btn-black-icon {
+  background: #202020;
+}
+.btn-black:hover .btn-black-icon i {
+  background: #ffffff;
+}
 .section {
   padding: 90px 0;
 }
@@ -374,6 +413,7 @@ header {
   background: #e5e3ec33;
   border-radius: 6px;
   border: 1px solid #e5e3ec33;
+  transition: .3s;
 }
 .btn-register {
   padding: 11.5px 20px;
@@ -383,11 +423,23 @@ header {
   color: #202020;
   background: #ffffff;
   border-radius: 6px;
+    transition: .3s;
+
 }
 .header-actons {
   gap: 10px;
 }
+.btn-login:hover {
+  background: #ffffff;
+    color: #202020;
 
+
+}
+.btn-register:hover{
+    color: #ffffff;
+    background: #202020;
+
+}
 .b-hero-section {
   position: relative;
   z-index: 2;
@@ -459,19 +511,19 @@ header {
   gap: 80px;
 }
 
-  .b-partners-right-blur {
-    position: absolute;
-    top: 0;
-    right: -100px;
-    z-index: 1;
-  }
+.b-partners-right-blur {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  z-index: 1;
+}
 
-  .b-partners-left-blur {
-        position: absolute;
-    top: 0;
-    left: -100px;
-    z-index: 1;
-  }
+.b-partners-left-blur {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  z-index: 1;
+}
 
 .b-partner-item {
   display: flex;
@@ -1112,10 +1164,9 @@ footer {
     font-size: 15px;
     font-weight: 500;
   }
-  .b-instrument-item{
+  .b-instrument-item {
     gap: 20px;
   }
-
 
   .b-after-before {
     margin-top: 8px;
