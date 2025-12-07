@@ -800,26 +800,6 @@ header {
   object-fit: cover;
 }
 
-.b-possibilities-titles {
-  display: flex;
-  justify-content: flex-end;
-}
-.b-possibilities-titles button {
-  display: flex;
-  gap: 14.5px;
-  background: transparent;
-  align-items: center;
-}
-.b-possibilities-titles button span {
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 120%;
-  color: #202020;
-}
-.b-possibilities-titles button i {
-  font-size: 13px;
-  background: #202020;
-}
 
 .b-possibilities-swiper-block {
   margin-top: 28px;
@@ -1208,12 +1188,7 @@ footer {
     font-size: 15px;
     margin-top: 20px;
   }
-  .b-possibilities-titles {
-    justify-content: center;
-  }
-  .b-possibilities-titles button span {
-    font-size: 18px;
-  }
+
   .b-possibilities-slide {
     min-height: 436px;
   }
